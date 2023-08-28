@@ -31,7 +31,7 @@ namespace OrleansWebAPI7AppDemo.Controllers
         public Animal TestObject()
         {
             Animal animal_1 = new Animal();
-            animal_1.Name = "いぬ";
+            animal_1.Name = "ねこ";
             return animal_1;
         }
 
