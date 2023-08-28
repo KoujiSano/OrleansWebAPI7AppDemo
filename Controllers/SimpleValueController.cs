@@ -14,7 +14,7 @@ namespace OrleansWebAPI7AppDemo.Controllers
         }
 
         [HttpGet()]
-        public String TestValue()
+        public String TestWord()
         {
             return "あいうえお";
         }
@@ -46,6 +46,11 @@ namespace OrleansWebAPI7AppDemo.Controllers
         {
             animal.Age = 20;
             return animal;
+        }
+         [HttpGet()]
+        public String TestWord()
+        {
+            return "わおん";
         }
     }
 }
